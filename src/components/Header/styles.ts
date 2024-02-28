@@ -30,6 +30,7 @@ export const LinksItens = styled.li`
 `
 export const LinkCart = styled.a`
   display: flex;
+  align-items: center;
 
   img {
     margin-left: 16px;
