@@ -1,5 +1,4 @@
 import Game from '../../Models/Games'
-import Banner from '../../components/Banner'
 import ProductList from '../../components/ProductList'
 
 import Resident from '../../assets/images/resident.png'
@@ -95,7 +94,6 @@ const emBreve: Game[] = [
 
 const Categories = () => (
   <>
-    <Banner />
     <ProductList title={'RPG'} background={'gray'} games={promcoes} />
     <ProductList title={'Ação'} background={'black'} games={emBreve} />
     <ProductList title={'Aventura'} background={'gray'} games={promcoes} />
