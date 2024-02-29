@@ -8,7 +8,7 @@ export type Props = {
   system: string
   description: string
   infos: string[]
-  imgage: string
+  image: string
 }
 
 const Product = ({
@@ -17,10 +17,10 @@ const Product = ({
   system,
   description,
   infos,
-  imgage
+  image
 }: Props) => (
   <Card>
-    <img src={imgage} />
+    <img src={image} />
     <Infos>
       {infos.map((info) => (
         <Tag key={info}>{info}</Tag>
